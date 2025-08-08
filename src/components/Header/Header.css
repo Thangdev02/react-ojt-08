@@ -1,0 +1,24 @@
+/* 1. Tag name */
+/* 2. Class name */
+/* 3. Id name */
+/* 4. Children */
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu > ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    color: #BDA275;
+    font-size: 18px;
+    font-weight: bold;
+}
+.icon{
+    display: flex;
+    gap: 2rem;
+}
+/* Dung nen lam dung px, nen sai % - > De responsive ( tuong thich voi nhieu man hinh ) */
+/* Flex-box cho phep can chinh nhung phan tu con ben trong */

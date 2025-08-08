@@ -1,0 +1,52 @@
+.container{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    max-width: 1440px;
+}
+.left-content, .right-content{
+    width: 50%;
+}
+.row1 > h1 {
+    font-size: 60px;
+}
+
+.row1 > p {
+    width: 437px;
+    font-size: 18px;
+}
+.explore{
+    background-color: #BDA175;
+    color: #FFFFFF;
+    width: 178px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.row3{
+    display: flex;
+    gap:2rem
+}
+.icon-handmade, .icon-unique{
+    display: flex;
+    gap:0.5rem;
+    align-items: center;
+}
+.left-content{
+    display: flex; 
+    flex-direction: column;
+    gap: 2rem;
+    /* mac cdinh la hang ngang */
+}
+.yellow-text{
+    color: #BDA275;
+}
+.green-text{
+    color: #84A970;
+} 
