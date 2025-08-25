@@ -16,6 +16,10 @@
     font-size: 18px;
     font-weight: bold;
 }
+.menu > ul > li > a{
+    text-decoration: none;
+    color: #BDA275;
+}
 .icon{
     display: flex;
     gap: 2rem;

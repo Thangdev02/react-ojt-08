@@ -1,0 +1,30 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "imageProduct": "/images/product1.png",
+            "productName": "Sunshine Vase",
+            "productDescription": "Handcrafted ceramic vase in warm yellow tones",
+            "productPrice": "500000 vnd"
+        },
+        {
+            "id": "2",
+            "imageProduct": "/images/product1.png",
+            "productName": "Sunshine Vase 2",
+            "productDescription": "Handcrafted ceramic vase in warm yellow tones",
+            "productPrice": "500.000 vnd"
+        }
+    ],
+    "user": [
+        {
+            "id": "1",
+            "Username": "user1",
+            "Password": "123123"
+        },
+        {
+            "id": "2",
+            "Username": "test",
+            "Password": "123123"
+        }
+    ]
+}

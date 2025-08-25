@@ -1,0 +1,36 @@
+.container{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.our-story{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.our-story > h1 {
+    font-size: 50px;
+    color: #493E36;
+}
+.our-story >p {
+    width: 757px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    color: #9E897B;
+}
+.our-story > button {
+width: 148px;
+height: 40px;
+border: none;
+border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* 4 thong so -> tren phai duoi trai
+2 thong tren duoi, phai trai
+1 thong so 4 chieu */

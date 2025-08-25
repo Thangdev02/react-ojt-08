@@ -11,7 +11,7 @@ const Banner = () => {
                         <p>Each piece of pottery is uniquely crafted by skilled artisans, bringing the beauty of nature into your home.</p>
                     </div>
                     <div className='row2'>
-                        <button class='explore'>Explore Our Collection →</button>
+                        <button className='explore'>Explore Our Collection →</button>
                         <button>VR Technology</button>
                     </div>
                     <div className='row3'>
