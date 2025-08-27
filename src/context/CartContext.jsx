@@ -26,12 +26,10 @@ export const CartProvider = ({ children }) => {
       setCart([...cart, { ...product, quantity: 1 }]);
     }
   };
-  const updateCartQuanlity = (productId, newQuantity) => {
-    
-  }
+  
   return (
-    <CartContext.Provider value={{ cart, addToCart }}> // no cho phep cac thang con goi toi no de su dung 
-      {children} //compoents/ page
+    <CartContext.Provider value={{ cart, addToCart,setCart }}> 
+      {children}
     </CartContext.Provider>
   );
 };

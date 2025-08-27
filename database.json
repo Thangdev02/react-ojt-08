@@ -1,30 +1,108 @@
 {
-    "products": [
+  "products": [
+    {
+      "id": "1",
+      "imageProduct": "/images/product1.png",
+      "productName": "Sunshine Vase",
+      "productDescription": "Handcrafted ceramic vase in warm yellow tones",
+      "productPrice": "500000 vnd"
+    },
+    {
+      "id": "2",
+      "imageProduct": "/images/product1.png",
+      "productName": "Sunshine Vase 2",
+      "productDescription": "Handcrafted ceramic vase in warm yellow tones",
+      "productPrice": "500.000 vnd"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "Username": "user1",
+      "Password": "123123"
+    },
+    {
+      "id": "2",
+      "Username": "test",
+      "Password": "123123"
+    }
+  ],
+  "orders": [
+    {
+      "id": "420f",
+      "userId": "2",
+      "fullName": "tao moi mua",
+      "address": "nah cua tao",
+      "phone": "0949450800",
+      "item": [
         {
-            "id": "1",
-            "imageProduct": "/images/product1.png",
-            "productName": "Sunshine Vase",
-            "productDescription": "Handcrafted ceramic vase in warm yellow tones",
-            "productPrice": "500000 vnd"
-        },
-        {
-            "id": "2",
-            "imageProduct": "/images/product1.png",
-            "productName": "Sunshine Vase 2",
-            "productDescription": "Handcrafted ceramic vase in warm yellow tones",
-            "productPrice": "500.000 vnd"
+          "id": "1",
+          "imageProduct": "/images/product1.png",
+          "productName": "Sunshine Vase",
+          "productDescription": "Handcrafted ceramic vase in warm yellow tones",
+          "productPrice": "500000 vnd"
         }
-    ],
-    "user": [
+      ],
+      "status": "Cho Xac Nhan",
+      "total": 500000,
+      "createAt": "2025-08-27T14:55:53.971Z"
+    },
+    {
+      "id": "285a",
+      "userId": "2",
+      "fullName": "tao moi mua",
+      "address": "nah cua tao",
+      "phone": "0949450800",
+      "item": [
         {
-            "id": "1",
-            "Username": "user1",
-            "Password": "123123"
-        },
-        {
-            "id": "2",
-            "Username": "test",
-            "Password": "123123"
+          "id": "1",
+          "imageProduct": "/images/product1.png",
+          "productName": "Sunshine Vase",
+          "productDescription": "Handcrafted ceramic vase in warm yellow tones",
+          "productPrice": "500000 vnd"
         }
-    ]
+      ],
+      "status": "Cho Xac Nhan",
+      "total": 500000,
+      "createAt": "2025-08-27T14:57:39.783Z"
+    },
+    {
+      "id": "a547",
+      "userId": "2",
+      "fullName": "tao moi mua",
+      "address": "nah cua tao",
+      "phone": "0949450800",
+      "item": [
+        {
+          "id": "1",
+          "imageProduct": "/images/product1.png",
+          "productName": "Sunshine Vase",
+          "productDescription": "Handcrafted ceramic vase in warm yellow tones",
+          "productPrice": "500000 vnd"
+        }
+      ],
+      "status": "Cho Xac Nhan",
+      "total": 500000,
+      "createAt": "2025-08-27T14:58:18.819Z"
+    },
+    {
+      "id": "8f38",
+      "userId": "2",
+      "fullName": "Thang",
+      "address": "asdasd",
+      "phone": "0944514212",
+      "item": [
+        {
+          "id": "1",
+          "imageProduct": "/images/product1.png",
+          "productName": "Sunshine Vase",
+          "productDescription": "Handcrafted ceramic vase in warm yellow tones",
+          "productPrice": "500000 vnd"
+        }
+      ],
+      "status": "Cho Xac Nhan",
+      "total": 500000,
+      "createAt": "2025-08-27T15:03:26.295Z"
+    }
+  ]
 }

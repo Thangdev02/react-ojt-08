@@ -24,3 +24,6 @@ export const getProductByID = async (id) => { //tham so param, nhan ve
         
     }
 }
+export const createProduct = (productDate) => {
+    const result = axios.post(`${API_URL}/products`,productDate)
+}
