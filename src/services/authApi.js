@@ -25,3 +25,15 @@ export const login =  async (Username, Password) => {
         throw error;
     }
 }
+
+export const RegisterUser = async (userData) => {
+    try {
+        const result = await axios.post(`${API_URL}/user`,userData) // tao duoc roi
+        console.log("Register",result);
+        
+        return result.data
+        //confign add Bear Token, fetch khai bao phuong thuc, khai bao content type
+    } catch (error) {
+        console.log(error);
+    }
+}

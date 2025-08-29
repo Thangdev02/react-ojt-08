@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './pages/LoginPage'
 import CartPage from './pages/CartPage'
 import Thanks from './pages/Thanks'
+import Signup from './pages/SignupPage'
 function App() {
 
 
@@ -18,6 +19,7 @@ function App() {
     <Routes>
     <Route path="/" element={<HomePage/>}/>
     <Route path="/login" element={<Login/>}/>
+    <Route path="/signup" element={<Signup/>}/>
     <Route path="/detail/:id" element={<ProductDetail/>}/>
     <Route path="/cart" element={<CartPage/>}/>
     <Route path="/thanks" element={<Thanks/>}/>

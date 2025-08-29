@@ -18,13 +18,30 @@
   "user": [
     {
       "id": "1",
-      "Username": "user1",
-      "Password": "123123"
+      "Username": "user",
+      "Password": "123123",
+      "Email": "cNtI5@example.com",
+      "phone": "0949450800",
+      "address": "Kien Giang",
+      "role": "USER"
     },
     {
       "id": "2",
-      "Username": "test",
-      "Password": "123123"
+      "Username": "admin",
+      "Password": "admin@",
+      "Email": "admin@example.com",
+      "phone": "0949450800",
+      "address": "Kien Giang",
+      "role": "ADMIN"
+    },
+    {
+      "id": "e1e6",
+      "Username": "Thanglq",
+      "Password": "123123",
+      "Email": "thangdev02@gmail.com",
+      "phone": "0949450800",
+      "address": "218 Ngo quyen",
+      "role": "USER"
     }
   ],
   "orders": [
